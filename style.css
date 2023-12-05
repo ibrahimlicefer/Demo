@@ -61,6 +61,26 @@ section {
 #creating .orangebox:hover {
   border-radius: 0;
 }
+@media screen and (max-width: 800px) {
+  #creating .violetbox {
+    width: 100px;
+    height: 50px;
+    background-color: #6f76d8;
+    border: none;
+    padding: 15px;
+  }
+  #creating .orangebox {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    padding: 27px;
+    background-color: #b6b475;
+  }
+  #creating .orangebox h1 {
+    position: absolute;
+    right: 7px;
+  }
+}
 
 #blueboxs .minibox {
   display: flex;
