@@ -71,14 +71,31 @@ section {
   }
   #creating .orangebox {
     position: relative;
-    width: 30px;
-    height: 30px;
-    padding: 27px;
+    width: 18px;
+    height: 18px;
+    padding: 21px;
+    font-size: 21px;
     background-color: #b6b475;
   }
   #creating .orangebox h1 {
     position: absolute;
-    right: 7px;
+    right: 4px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #creating .violetbox {
+    width: 45px;
+    height: 45px;
+    font-size: 9px;
+    padding: 10px;
+    background-color: #270101;
+    border-radius: 3px;
+  }
+  #creating .margin {
+    margin-top: 0;
+  }
+  #creating .threeboxs {
+    margin-top: 0;
   }
 }
 
