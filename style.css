@@ -71,10 +71,10 @@ section {
   }
   #creating .orangebox {
     position: relative;
-    width: 18px;
-    height: 18px;
-    padding: 21px;
-    font-size: 21px;
+    width: 25px;
+    height: 25px;
+    padding: 25px;
+    font-size: 25px;
     background-color: #b6b475;
   }
   #creating .orangebox h1 {
@@ -82,12 +82,20 @@ section {
     right: 4px;
   }
 }
+@media screen and (max-width: 700px) {
+  #creating .margin {
+    margin-top: 0;
+  }
+  #creating .threeboxs {
+    margin-top: 0;
+  }
+}
 @media screen and (max-width: 500px) {
   #creating .violetbox {
-    width: 45px;
-    height: 45px;
-    font-size: 9px;
-    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+    padding: 11px;
     background-color: #270101;
     border-radius: 3px;
   }
@@ -105,7 +113,7 @@ section {
   height: 200px;
   width: 300px;
   margin: 20px 0;
-  padding: 80px;
+  padding: 70px;
   font-size: 30px;
   color: white;
   background-color: #5365c8;
@@ -126,7 +134,7 @@ section {
   height: 200px;
   width: 300px;
   margin: 20px 0;
-  padding: 80px;
+  padding: 70px;
   font-size: 30px;
   color: white;
   background-color: #6ba879;
