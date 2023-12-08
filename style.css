@@ -8,16 +8,16 @@ section {
 }
 
 #creating .box {
-  border: 2px solid #1d2d84;
+  border: 3px solid #1d8284;
   width: 200px;
   height: 200px;
-  background-color: #6096e1;
+  background-color: #5988af;
   padding: 49px;
 }
 #creating .box .minibox {
   display: flex;
   align-items: center;
-  background-color: #3b4a83;
+  background-color: #3c5f89;
   color: white;
   width: 100px;
   height: 100px;
@@ -47,7 +47,7 @@ section {
 #creating .orangebox {
   display: flex;
   align-items: center;
-  background-color: #845910;
+  background-color: #947053;
   color: white;
   width: 200px;
   height: 200px;
@@ -99,12 +99,6 @@ section {
     background-color: #270101;
     border-radius: 3px;
   }
-  #creating .margin {
-    margin-top: 0;
-  }
-  #creating .threeboxs {
-    margin-top: 0;
-  }
 }
 
 #blueboxs .minibox {
@@ -116,7 +110,7 @@ section {
   padding: 70px;
   font-size: 30px;
   color: white;
-  background-color: #5365c8;
+  background-color: #456c91;
 }
 #blueboxs .change {
   transform: translate(300px, 0);
@@ -137,7 +131,7 @@ section {
   padding: 70px;
   font-size: 30px;
   color: white;
-  background-color: #6ba879;
+  background-color: #77a36f;
 }
 #greenboxs .twiceMbox {
   position: absolute;
