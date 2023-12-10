@@ -86,9 +86,6 @@ section {
   #creating .margin {
     margin-top: 0;
   }
-  #creating .threeboxs {
-    margin-top: 0;
-  }
 }
 @media screen and (max-width: 500px) {
   #creating .violetbox {
